@@ -16,6 +16,6 @@ public void RandomOlustur()
 Random olarak Ağırlıkları oluşturma fonksiyonudur.
 
 ```c#
-        public int NetHesaplama(int ornekNo, int iterasyon, double x1, double x2, double w1, double w2, double esik, double ogrenme, double beklenen)
+public int NetHesaplama(int ornekNo, int iterasyon, double x1, double x2, double w1, double w2, double esik, double ogrenme, double beklenen)
 ```
 Net değerinin hesaplandıktan sonra çıktı ve beklenen değer eşleşmesi olmaması durumunda ağırlık değerlerinde değişimlerin yapıldığı fonksiyondur.
